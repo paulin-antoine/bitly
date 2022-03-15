@@ -16,7 +16,7 @@
             <header>
                 <img src="pictures/logo.png" id="logo">
             </header>
-            <h1>Une url longue ? Raccourissez-là</h1>
+            <h1>Une url longue ? Raccourissez-là.</h1>
             <h2>Largement meilleur et plus court que les autres !<h2>
         </div>
     </section>
