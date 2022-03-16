@@ -38,20 +38,30 @@ h1 {
 }
 
 h2 {
-  color: blue;
+  color: white;
   text-align: center;
   font-weight: 500;
 }
 
-/*#hello form {
+#hello form {
   text-align: center;
   margin-top: 30px;
-}*/
+}
 
-input {
+input[type="url"] {
   border-radius: 3px;
   box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
   padding: 17px 30px;
   border: none;
   width: 50%;
+  font-size: 1.3em;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  padding: 17px 30px;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 3px;
+  background-color: aqua;
 }
