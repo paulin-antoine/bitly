@@ -34,10 +34,24 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2.9em;
+  margin-bottom: 10px;
 }
 
 h2 {
-  color: white;
+  color: blue;
   text-align: center;
   font-weight: 500;
+}
+
+/*#hello form {
+  text-align: center;
+  margin-top: 30px;
+}*/
+
+input {
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+  padding: 17px 30px;
+  border: none;
+  width: 50%;
 }

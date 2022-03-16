@@ -18,6 +18,10 @@
             </header>
             <h1>Une url longue ? Raccourissez-là.</h1>
             <h2>Largement meilleur et plus court que les autres !<h2>
+                    <form method="post" action="../">
+                        <input type="url" name="url" placeholder="collez un lien à raccourcir">
+                        <input type="submit" value="Raccourcir">
+                    </form>
         </div>
     </section>
 </body>
