@@ -9,6 +9,11 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
 #hello {
   background-image: url("../pictures/hello.jpg");
   background-size: cover;
@@ -48,6 +53,19 @@ h2 {
   margin-top: 30px;
 }
 
+.center {
+  text-align: center;
+}
+
+#result {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  display: inline-block;
+}
+
 input[type="url"] {
   border-radius: 3px;
   box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
@@ -64,4 +82,35 @@ input[type="submit"] {
   border: none;
   border-radius: 3px;
   background-color: aqua;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#brands {
+  background-color: #eff7fc;
+  padding: 30px;
+  text-align: center;
+}
+
+#picture {
+  height: 35px;
+  margin: 35px;
+}
+
+h3 {
+  margin: 0;
+  color: #ee6623;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9em;
+}
+footer #logo {
+  height: 35px;
 }
